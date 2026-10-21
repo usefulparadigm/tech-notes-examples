@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# 비밀 정보
+.env
+.env.*
