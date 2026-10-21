@@ -74,12 +74,14 @@ npx @modelcontextprotocol/inspector
 ### 4. Claude Code 연결
 
 ```bash
-claude mcp add --transport stdio \
+claude mcp add wp-site \
   --env WP_API_URL=https://사이트주소/wp-json/usefulparadigm/mcp \
   --env WP_API_USERNAME=mcp-agent \
   --env WP_API_PASSWORD='애플리케이션 비밀번호' \
-  wp-site -- npx -y @automattic/mcp-wordpress-remote@latest
+  -- npx -y @automattic/mcp-wordpress-remote@latest
 ```
+
+서버 이름(`wp-site`)은 `add` 바로 뒤에 씁니다. `--env` 뒤에 두면 이름을 환경변수로 읽어 오류가 납니다. 어디서나 쓰려면 `--scope user`를 붙이세요.
 
 ## 유의사항
 
