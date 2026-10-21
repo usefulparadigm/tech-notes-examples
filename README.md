@@ -4,7 +4,7 @@
 
 | 폴더 | 글 | 내용 |
 | --- | --- | --- |
-| [wordpress-mcp-adapter-custom-server](wordpress-mcp-adapter-custom-server/) | 워드프레스 MCP Adapter와 커스텀 서버 만들기 | Abilities API로 어빌리티를 등록하고 MCP Adapter 커스텀 서버로 노출하기 |
+| [wordpress-mcp-adapter-custom-server](wordpress-mcp-adapter-custom-server/) | [워드프레스 MCP Adapter와 커스텀 서버 만들기](https://www.usefulparadigm.com/2026/10/21/wordpress-mcp-adapter-custom-server/) | Abilities API로 어빌리티를 등록하고 MCP Adapter 커스텀 서버로 노출하기 |
 
 ## 사용 시 유의사항
 

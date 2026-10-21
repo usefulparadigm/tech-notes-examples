@@ -1,6 +1,6 @@
 # 워드프레스 MCP Adapter와 커스텀 서버 만들기
 
-기술 노트 [워드프레스 MCP Adapter와 커스텀 서버 만들기](https://www.usefulparadigm.com/insights/)의 예제 코드입니다. <!-- 발행 후 글 주소로 교체 -->
+기술 노트 [워드프레스 MCP Adapter와 커스텀 서버 만들기](https://www.usefulparadigm.com/2026/10/21/wordpress-mcp-adapter-custom-server/)의 예제 코드입니다.
 
 워드프레스의 Abilities API로 어빌리티를 등록하고, [MCP Adapter](https://wordpress.org/plugins/mcp-adapter/)로 AI 클라이언트(Claude Code 등)에 노출합니다.
 
