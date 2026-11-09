@@ -2,8 +2,8 @@
 
 기술 노트 실습에서 Codex(ChatGPT Desktop)에 준 요건 원문입니다. 아래 `---` 사이의 내용을 그대로 붙여 넣었습니다. 가게 이름, 주소, 전화번호 등은 모두 가상입니다.
 
-- 실습 환경: Codex(ChatGPT Desktop) + WordPress Studio MCP(`studio mcp`) + [Automattic/build-with-wordpress](https://github.com/Automattic/build-with-wordpress) Codex 패키지
-- 실습 날짜: (실습 후 기입)
+- 실습 환경: Codex(ChatGPT Desktop, GPT-6.1 Sol / Medium) + WordPress Studio 2.1.1 MCP(`studio mcp`)
+- 실습 날짜: 2026년 11월 9일
 
 ---
 
