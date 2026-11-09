@@ -7,11 +7,17 @@ Codex(ChatGPT Desktop)에 WordPress Studio MCP와 [Automattic/build-with-wordpre
 ## 파일
 
 ```
-prompt.md     Codex에 준 요건 원문 (가상 카페 '골목커피')
-theme/        Codex가 만든 블록 테마
+prompt.md                 Codex에 준 요건 원문 (가상 카페 '골목커피')
+theme/                    Codex가 만든 블록 테마 (wp-content/themes/golmokcoffee)
+content/                  DB에 저장된 콘텐츠의 블록 마크업 (참고용 스냅숏)
+  pages/                  홈, 메뉴, 원두, 소개·오시는 길, 소식 페이지
+  synced-patterns/        동기화 패턴: 영업시간과 주소, 대표 메뉴, 이번 주 원두, 나머지 메뉴
+  navigation-16.html      상단 메뉴
 ```
 
-`theme/`은 커밋을 두 단계로 나눴습니다. 첫 커밋이 Codex가 만든 원본이고, 그 뒤 커밋이 사람이 손본 부분입니다. `git diff`로 비교할 수 있습니다.
+테마 파일에는 가게 정보가 거의 없습니다. 영업시간·주소·메뉴·원두는 Codex가 동기화 패턴(DB의 `wp_block`)으로 만들어 여러 페이지에서 불러 씁니다. 그래서 `theme/`만으로는 사이트가 재현되지 않아, DB의 해당 콘텐츠를 `content/`에 따로 남겼습니다.
+
+커밋은 두 단계로 나눴습니다. 앞 커밋이 Codex가 만든 원본이고, 그 뒤 커밋이 사람이 손본 부분입니다. `git diff`로 비교할 수 있습니다.
 
 ## 실습 환경
 
