@@ -4,7 +4,7 @@ Description: A custom block theme scaffolded by Studio Code.
 Requires at least: 6.7
 Tested up to: 6.9
 Requires PHP: 7.2
-Version: 0.1.0
+Version: 0.1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: golmokcoffee
@@ -56,14 +56,15 @@ Tags: full-site-editing, block-patterns, block-styles, wide-blocks, accessibilit
 	content: "";
 	position: absolute;
 	z-index: -1;
-	right: 0;
-	top: 16%;
-	bottom: 12%;
-	width: 26%;
-	border-radius: 50% 50% 6px 6px;
-	background: repeating-radial-gradient(ellipse at 50% 65%, var(--wp--preset--color--sand) 0 10px, transparent 11px 17px), var(--wp--preset--color--background);
+	inset: 0 0 0 auto;
+	width: 39%;
+	background: url("assets/images/coffee-cup.svg") right center / contain no-repeat;
+	pointer-events: none;
 }
-.shop-hero > p { max-width: 74%; }
+.shop-hero > p { max-width: 64%; }
+.shop-lede { word-break: keep-all; }
+.coffee-origin-art img { display: block; width: 100%; height: auto; }
+.shop-section .coffee-origin-art { display: none; }
 .shop-kicker { color: var(--wp--preset--color--clay); font-size: .72rem; font-weight: 800; letter-spacing: .14em; }
 .shop-lede { font-size: clamp(1.05rem, 3vw, 1.35rem); }
 .shop-hero-links a { display: inline-block; padding-block: .5rem; font-weight: 750; text-underline-offset: .28em; }
@@ -83,7 +84,7 @@ Tags: full-site-editing, block-patterns, block-styles, wide-blocks, accessibilit
 }
 .shop-news .wp-block-post { padding-block: 1.25rem; border-block-start: 1px solid var(--wp--preset--color--sand); }
 @media (max-width: 600px) {
-	.shop-hero::after { width: 22%; top: 23%; bottom: 20%; }
-	.shop-hero > p { max-width: 81%; }
+	.shop-hero::after { width: 37%; right: -2%; }
+	.shop-hero > p { max-width: 67%; }
 	.shop-hero .shop-kicker { font-size: .62rem; letter-spacing: .08em; }
 }
