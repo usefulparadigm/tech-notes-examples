@@ -1,6 +1,6 @@
 # Codex로 워드프레스 웹사이트 제작하기
 
-기술 노트 "Codex로 워드프레스 웹사이트 제작하기"(발행 예정)의 예제입니다.
+기술 노트 [Codex로 워드프레스 웹사이트 제작하기](https://www.usefulparadigm.com/2026/11/09/wordpress-site-with-codex/)의 예제입니다.
 
 Codex(ChatGPT Desktop)에 [WordPress Studio](https://developer.wordpress.com/studio/) MCP를 연결하고, 가상의 동네 로스터리 카페 요건으로 사이트(블록 테마와 콘텐츠)를 만들었습니다. 별도 스킬 패키지는 설치하지 않았습니다. Studio MCP가 워드프레스 작업 지침과 스킬을 함께 제공합니다.
 
