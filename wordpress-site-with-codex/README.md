@@ -11,7 +11,7 @@ prompt.md                 Codex에 준 요건 원문 (가상 카페 '골목커�
 theme/                    Codex가 만든 블록 테마 (wp-content/themes/golmokcoffee)
 content/                  DB에 저장된 콘텐츠의 블록 마크업 (참고용 스냅숏)
   pages/                  홈, 메뉴, 원두, 소개·오시는 길, 소식 페이지
-  synced-patterns/        동기화 패턴: 영업시간과 주소, 대표 메뉴, 이번 주 원두, 나머지 메뉴
+  synced-patterns/        동기화 패턴: 영업시간과 주소, 전화번호, 대표 메뉴, 이번 주 원두, 나머지 메뉴
   navigation-16.html      상단 메뉴
   uploads/                Codex가 만들어 미디어에 올린 원두 이미지 3장
 ```
