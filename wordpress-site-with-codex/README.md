@@ -1,13 +1,13 @@
-# AI 에이전트로 워드프레스 블록 테마 만들기
+# Codex로 워드프레스 웹사이트 제작하기
 
-기술 노트 "AI 에이전트로 워드프레스 블록 테마 만들기"(발행 예정)의 예제입니다.
+기술 노트 "Codex로 워드프레스 웹사이트 제작하기"(발행 예정)의 예제입니다.
 
 Codex(ChatGPT Desktop)에 WordPress Studio MCP와 [Automattic/build-with-wordpress](https://github.com/Automattic/build-with-wordpress) 스킬을 연결하고, 가상의 동네 로스터리 카페 요건으로 블록 테마를 만들었습니다.
 
 ## 파일
 
 ```
-prompt.md     Codex에 준 요건 원문 (가상 카페 '골목볕 로스터리')
+prompt.md     Codex에 준 요건 원문 (가상 카페 '골목커피')
 theme/        Codex가 만든 블록 테마
 ```
 
