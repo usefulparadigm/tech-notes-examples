@@ -1,0 +1,39 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","className":"shop-news"} -->
+<main class="wp-block-group shop-news">
+	<!-- wp:group {"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group">
+		<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">소식</h1>
+<!-- /wp:heading -->
+		<!-- wp:paragraph -->
+<p>휴무 일정과 새 원두 입고 소식을 전합니다.</p>
+<!-- /wp:paragraph -->
+		<!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true}} -->
+		<div class="wp-block-query">
+			<!-- wp:post-template -->
+				<!-- wp:post-title {"isLink":true,"level":2} /-->
+				<!-- wp:post-date /-->
+				<!-- wp:post-excerpt /-->
+			<!-- /wp:post-template -->
+
+			<!-- wp:query-pagination -->
+				<!-- wp:query-pagination-previous {"label":"이전"} /-->
+				<!-- wp:query-pagination-numbers /-->
+				<!-- wp:query-pagination-next {"label":"다음"} /-->
+			<!-- /wp:query-pagination -->
+
+			<!-- wp:query-no-results -->
+				<!-- wp:paragraph -->
+				<p>아직 등록된 소식이 없습니다.</p>
+				<!-- /wp:paragraph -->
+			<!-- /wp:query-no-results -->
+		</div>
+		<!-- /wp:query -->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
